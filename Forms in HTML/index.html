@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <H2>Form for apply addmission in web dev batch</H2>
+    <form action="post">
+        <div>
+            <label for="username">Enter your username</label>
+            <input type="text" id="username" name="username" placeholder="enter your username" required autofocus>
+        </div>
+
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter
+            </label>
+        </div>
+
+        <div>
+            <label for="comment">Enter your comment</label>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="course">Select Your Course</label>
+            <select name="course" id="course">
+                <option value="Sigma Web Devlopment">Web Development</option>
+                <option value="DSA Course">DSA course</option>
+                <option value="C++ course">C++ course</option>
+                <option value="c course">C course</option>
+                <option value="Java Course">java course</option>
+            </select>
+        </div>
+    </form>
+
+</body>
+</html>
