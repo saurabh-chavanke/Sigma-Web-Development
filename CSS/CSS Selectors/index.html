@@ -4,8 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Selector</title>
+    <style>
+        /* element selector */
+        div{
+            background-color: aqua;
+        }
+
+        /* class selector */
+        .red{
+            background-color: red;
+        }
+
+        /* Id selector */
+        #green{
+            background-color: green;
+        }
+
+        /* child selector */
+        div > p{
+            color: blue;
+        }
+        
+        /* Descendent Selector */
+        div p{
+            background-color: chartreuse;
+        }
+
+        /* Universal selector */
+        *{
+            margin: 0;
+            padding: 10%;
+        }
+
+        /* pseudo selector */
+        a:visited{
+            color: yellow;
+        }
+
+        a:link{
+            color: goldenrod;
+        }
+
+        a:active{
+            background-color: cadetblue;
+        }
+
+        a:hover{
+            background-color: red;
+        }
+
+        div:hover{
+            background-color: black;
+        }
+    </style>
 </head>
 <body>
-    
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus delectus dolorem voluptates veritatis ab, hic quos fugit blanditiis, ducimus enim eius placeat voluptatibus fuga laborum voluptas architecto ut aut nobis.
+    </div>
+
+    <div class="red">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, voluptatibus.
+        <article>
+            <p>
+                Lorem ipsum dolor sit amet.
+            </p>
+        </article>
+        
+    </div>
+
+    <p id="green">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+
+    <div>
+        <a href="https://www.google.com">Go to Google</a>
+        <a href="https://www.india.com" target="_blank">Go To India</a>
+    </div>
+
+
 </body>
 </html>
