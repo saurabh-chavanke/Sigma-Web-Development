@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+
+        :root{
+            --backcl:rgb(228, 0, 0);
+            --seccolor:rgb(0, 0, 0);
+        }
+
+        div{
+            background-color: aliceblue;
+        }
+        div ul{
+            color: var(--backcl);
+            display: flex;
+            padding: 2px;
+            list-style: none;
+        }
+        div ul li{
+            background-color: var(--seccolor);
+            padding: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>Home</li>
+            <li>about</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+</body>
+</html>
