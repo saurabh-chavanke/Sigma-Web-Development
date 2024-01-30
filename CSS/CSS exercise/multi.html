@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multicolor website</title>
+    <style>
+        :root{
+            --backcl : red;
+            --textcl : yellow;
+            --shcl : black;
+        }
+
+        body{
+            background-color: rgb(240, 153, 153);
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .list{
+            background-color: var(--backcl);
+            position: sticky;
+        }
+
+        .list ul{
+            display: flex;
+            list-style: none;
+            padding: 10px;
+           
+            
+        }
+
+        .list ul li{
+            padding-left: 30px;
+            color: var(--textcl);
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="list">
+        <ul>
+            <li ><a href="/">Home</a></li>
+            <li><a href="/HTML/first site/index.html">About</a></li>
+            <li><a href="/CSS/CSS Box Model/">Contact</a></li>
+            <li>🎓</li>
+        </ul>
+    </div>
+</body>
+</html>
