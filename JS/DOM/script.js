@@ -5,11 +5,11 @@
 
 // console.log(a)
 
-// var obj={
-//     name:"saurabh",
-//     phone : "9370622616",
-//     marks : "8.30"
+var obj={
+    name:"saurabh",
+    phone : "9370622616",
+    marks : "8.30"
     
-// }
+}
 
-// console.log(obj.name);
+console.log(obj.name);
